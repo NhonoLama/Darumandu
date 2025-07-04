@@ -1,4 +1,3 @@
-export const APP_NAME = process.env.NEXT_APP_NAME ||"Darumandu";
-export const APP_DESCRIPITION = process.env.NEXT_APP_DESCRIPITION ||"A digital liquor store.";
-export const SERVER_URL =process.env.NEXT_SERVER_URL ||"http://localhost:3000";
-export const LATEST_PRODUCT_LIMIT = 4;
+export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME;
+export const APP_DESCRIPTION = process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'A modern ecommerce platform built with Next.js and Tailwind CSS';
+export const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
